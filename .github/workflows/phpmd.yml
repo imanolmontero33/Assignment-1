@@ -17,7 +17,7 @@ name: Run tests
 
 on:
   push:
-    branches: [ "automated-testing " ]
+    branches: [ "automated-testing" ]
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ "main" ]
