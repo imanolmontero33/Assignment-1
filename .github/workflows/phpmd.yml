@@ -13,7 +13,7 @@
 #   Unused parameters, methods, properties
 # More details at https://phpmd.org/
 
-name: PHPMD
+name: Run tests
 
 on:
   push:
@@ -56,3 +56,20 @@ jobs:
         with:
           sarif_file: phpmd-results.sarif
           wait-for-processing: true
+  Jest:
+    runs-on: ubuntu-latest
+
+    steps: 
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Jest tests
+        run: npm test
