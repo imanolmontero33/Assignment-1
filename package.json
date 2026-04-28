@@ -1,0 +1,27 @@
+{
+  "name": "assignment-1",
+  "version": "1.0.0",
+  "description": "The COLORS application allows an user to register an account where they can create a list of colors that will be saved to their account which can be searched through later. \r It uses GitHub for version control, DigitalOcean for app hosting, GoDaddy for domain hosting, and MySQL for database implementations. \r The application can be run and accessed by going to the bob.monster domain and simply creating an account. \r Current limitations include inability to access the app outside of the site.\r TEST",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imanolmontero33/Assignment-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/imanolmontero33/Assignment-1/issues"
+  },
+  "homepage": "https://github.com/imanolmontero33/Assignment-1#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
